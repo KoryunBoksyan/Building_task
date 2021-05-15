@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  font-size: 20px;
+  position: fixed;
+  border: 1px solid white;
+  z-index: 1; }
+  .header .header_block {
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between; }
+  .header a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px; }
+    .header a:hover {
+      background-color: #e6e4e4; }
+
+.building_BR {
+  width: 100%;
+  height: 100vh;
+  background: url("https://www.w3schools.com/w3images/architect.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .building_BR h1 {
+    color: #fff;
+    font-size: 50px; }
+    .building_BR h1 b {
+      background-color: rgba(0, 0, 0, 0.815);
+      padding: 10px; }
+
+.main_container {
+  padding: 0 10px; }
+  .main_container .house {
+    display: flex;
+    flex-wrap: nowrap; }
+    .main_container .house .parent {
+      position: relative;
+      margin: 20px 20px; }
+      .main_container .house .parent .child {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: white;
+        background-color: black;
+        padding: 8px 16px;
+        font-size: 17px;
+        line-height: 1.5; }
+      .main_container .house .parent img {
+        width: 290px;
+        height: 190px;
+        transition: 1s; }
+        .main_container .house .parent img:hover {
+          transform: scale(1.1); }
+
+.contact {
+  padding: 0 10px; }
+  .contact .about {
+    display: flex;
+    flex-wrap: nowrap; }
+    .contact .about .person {
+      margin: 20px 20px; }
+      .contact .about .person h3 {
+        font-size: 30px;
+        margin-top: 5px; }
+      .contact .about .person .opacity {
+        color: gray;
+        margin: 5px 0; }
+      .contact .about .person .tranform {
+        width: 290px;
+        height: 190px;
+        transition: 1s; }
+        .contact .about .person .tranform:hover {
+          transform: scale(1.1); }
+      .contact .about .person .button {
+        margin: 10px 0; }
+        .contact .about .person .button .contact {
+          width: 290px;
+          height: 30px;
+          font-size: 15px;
+          background-color: #dfdbdb;
+          border: none;
+          cursor: pointer; }
+          .contact .about .person .button .contact:hover {
+            background-color: #a0a0a0; }
+
+.contact_p {
+  margin: 20px; }
+
+.contact {
+  margin: 10px 10px; }
+  .contact .forma {
+    width: 100%;
+    height: 25px; }
+  .contact .send_message {
+    background-color: black;
+    color: white;
+    padding: 5px 10px; }
+
+.footer {
+  margin: 5px;
+  background-color: black; }
+  .footer .footer_link {
+    color: white; }
+  .footer a {
+    text-decoration: none;
+    color: white;
+    display: inline; }
+
+.paragraph {
+  margin: 10px 15px; }

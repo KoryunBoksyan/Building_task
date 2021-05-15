@@ -1,0 +1,49 @@
+.contact {
+    padding: 0 10px;
+    .about {
+        display: flex;
+        flex-wrap: nowrap;
+        .person {
+            margin: 20px 20px;
+
+            h3 {
+                font-size: 30px;
+                margin-top: 5px;
+            }
+
+            .opacity {
+                color: opacify($color: gray, $amount: 0.7);
+                margin: 5px 0;
+            }
+            
+            .tranform {
+                width: 290px;
+                height: 190px;
+                transition: 1s;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+
+            .button {
+                margin: 10px 0;
+                
+                .contact {
+                    width: 290px;
+                    height: 30px;
+                    font-size: 15px;
+                    background-color: rgb(223, 219, 219);
+                    border: none;
+                    cursor: pointer;
+
+                    &:hover{
+                        background-color: rgb(160, 160, 160);
+                    }
+                }
+
+            }
+        }
+
+    }
+    
+}

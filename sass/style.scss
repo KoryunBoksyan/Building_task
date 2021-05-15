@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import "header";
+@import "sectionBR";
+@import "main";
+@import "sectionAbout";
+@import "contact";
+@import "footer";
+
+.paragraph {
+    margin: 10px 15px;
+}
+
+
